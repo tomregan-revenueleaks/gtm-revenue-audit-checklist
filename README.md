@@ -1,20 +1,17 @@
-# gtm-revenue-audit-checklist
-A comprehensive checklist for auditing B2B go-to-market motions and identifying revenue leaks. Based on 1,000+ funnel audits.
 # GTM Revenue Audit Checklist
+Built from hands-on B2B GTM audits.
 
 A comprehensive checklist for auditing your B2B go-to-market motion and identifying revenue leaks.
 
 ## Overview
 
-Most B2B companies lose $200K-$800K annually through operational gaps in their GTM processes. This checklist helps you systematically identify and quantify those leaks.
+This checklist helps you systematically identify and quantify the revenue leaks in your GTM processes.
 
-Based on audits of 100+ B2B companies across SaaS, FinTech, HealthTech, and professional services.
+Built from hands-on audits across SaaS, FinTech, HealthTech and professional services.
 
 ## Quick Start
 
-**Automated Audit:** Run a free 2-minute audit at [Artemis GTM](https://artemisgtm.ai) to get your health score and revenue leak analysis.
-
-👉 **[Run the Flash Audit](https://artemisgtm.ai/flash-audit)**
+**Automated audit:** Artemis, the AI GTM Engineer, is a free installable agent that teams run in their own Claude Code, claude.ai or Codex. It runs a GTM audit in one session: [artemisgtm.ai/engineer](https://artemisgtm.ai/engineer/)
 
 **Manual Audit:** Use the checklists below to systematically review your GTM motion.
 
@@ -32,7 +29,7 @@ Based on audits of 100+ B2B companies across SaaS, FinTech, HealthTech, and prof
 **Revenue Impact Formula:**
 
 Monthly leads × Response rate delta × Conversion rate × Avg deal size = Annual leak
-Example: 200 × 0.40 × 0.15 × $15,000 = $180,000/year
+Example: 200 × 0.40 × 0.15 × 15,000 USD = 180,000 USD/year
 
 ### 2. Lead Routing
 
@@ -56,13 +53,13 @@ Example: 200 × 0.40 × 0.15 × $15,000 = $180,000/year
 - [ ] Rejection reasons are required and tracked
 - [ ] MQL rejection rate is under 15%
 
-**Benchmark Conversion Rates:**
-| Stage | Benchmark |
+**Conversion Rate Starting Assumptions** (illustrative inputs; replace them with your own CRM numbers):
+| Stage | Starting assumption |
 |-------|-----------|
-| Lead → MQL | 25-35% |
-| MQL → SQL | 15-20% |
-| SQL → Opportunity | 50-60% |
-| Opportunity → Closed Won | 20-30% |
+| Lead to MQL | 25-35% |
+| MQL to SQL | 15-20% |
+| SQL to Opportunity | 50-60% |
+| Opportunity to Closed Won | 20-30% |
 
 ### 4. Pipeline Hygiene
 
@@ -72,7 +69,7 @@ Example: 200 × 0.40 × 0.15 × $15,000 = $180,000/year
 - [ ] Stage definitions are documented
 - [ ] Required fields enforced at each stage
 
-**Pipeline Coverage Benchmark:**
+**Pipeline Coverage Starting Assumptions** (illustrative; set your own from your win rate):
 | Growth Target | Required Coverage |
 |---------------|-------------------|
 | Aggressive (50%+ growth) | 4-5x |
@@ -129,43 +126,45 @@ Example: 200 × 0.40 × 0.15 × $15,000 = $180,000/year
 
 ---
 
-## Benchmarks by Industry
+## Starting Assumptions by Industry
+
+Illustrative inputs for the calculator below, not measured benchmarks. Replace every value with your own CRM numbers before you size a leak.
 
 ### SaaS
-| Metric | Benchmark |
+| Metric | Starting assumption |
 |--------|-----------|
 | Lead Response Time | <5 min |
-| MQL→SQL Conversion | 15% |
+| MQL to SQL Conversion | 15% |
 | Sales Cycle | 45 days |
 | Win Rate | 25% |
-| Average Deal Size | $15,000 |
+| Average Deal Size | 15,000 USD |
 
 ### FinTech
-| Metric | Benchmark |
+| Metric | Starting assumption |
 |--------|-----------|
 | Lead Response Time | <5 min |
-| MQL→SQL Conversion | 12% |
+| MQL to SQL Conversion | 12% |
 | Sales Cycle | 75 days |
 | Win Rate | 20% |
-| Average Deal Size | $35,000 |
+| Average Deal Size | 35,000 USD |
 
 ### HealthTech
-| Metric | Benchmark |
+| Metric | Starting assumption |
 |--------|-----------|
 | Lead Response Time | <10 min |
-| MQL→SQL Conversion | 10% |
+| MQL to SQL Conversion | 10% |
 | Sales Cycle | 100 days |
 | Win Rate | 18% |
-| Average Deal Size | $50,000 |
+| Average Deal Size | 50,000 USD |
 
 ### DevTools
-| Metric | Benchmark |
+| Metric | Starting assumption |
 |--------|-----------|
 | Lead Response Time | <5 min |
-| MQL→SQL Conversion | 15% |
+| MQL to SQL Conversion | 15% |
 | Sales Cycle | 50 days |
 | Win Rate | 24% |
-| Average Deal Size | $25,000 |
+| Average Deal Size | 25,000 USD |
 
 ---
 
@@ -181,7 +180,7 @@ Misrouted leads per month × Conversion rate delta × Deal size × 12
 
 ### Handoff Leak
 
-(Benchmark MQL→SQL - Actual MQL→SQL) × Monthly MQLs × Opportunity value × 12
+(Benchmark MQL to SQL - Actual MQL to SQL) × Monthly MQLs × Opportunity value × 12
 
 ### Churn Leak
 
@@ -203,16 +202,14 @@ Misrouted leads per month × Conversion rate delta × Deal size × 12
 
 Don't want to run this manually?
 
-**[Artemis GTM](https://artemisgtm.ai)** runs this entire audit automatically in 2 minutes.
+Artemis, the AI GTM Engineer, runs a GTM audit in one session inside your own Claude Code, claude.ai or Codex:
 
-👉 **[Run the Flash Audit](https://artemisgtm.ai/flash-audit)**
+```
+/plugin marketplace add tomregan-revenueleaks/artemis-gtm-plugins
+/plugin install gtm-engineer@artemis-gtm
+```
 
-- Input your metrics (or use benchmarks)
-- Get your GTM health score
-- See specific revenue leaks with dollar impact
-- Get prioritized recommendations
-
-Free. No credit card. No demo required.
+Free. No signup. Details: [artemisgtm.ai/engineer](https://artemisgtm.ai/engineer/)
 
 ---
 
@@ -222,7 +219,7 @@ Found a metric or benchmark we should add? Open a PR or issue.
 
 ## License
 
-MIT — use this however you want.
+MIT. Use this however you want.
 
 ---
 
