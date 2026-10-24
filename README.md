@@ -11,7 +11,7 @@ Built from hands-on audits across SaaS, FinTech, HealthTech and professional ser
 
 ## Quick Start
 
-**Automated audit:** Artemis, the AI GTM Engineer, is a free installable agent that teams run in their own Claude Code, claude.ai or Codex. It runs a GTM audit in one session: [artemisgtm.ai/engineer](https://artemisgtm.ai/engineer/)
+**Want it done for you?** Artemis GTM is an AI GTM engineering firm. It runs this audit on your own CRM and tools as the first step of an engagement, then builds the systems that close the leaks: [book an evaluation](https://artemisgtm.ai/#book)
 
 **Manual Audit:** Use the checklists below to systematically review your GTM motion.
 
@@ -198,18 +198,13 @@ Misrouted leads per month × Conversion rate delta × Deal size × 12
 
 ---
 
-## Automated Audit
+## Done For You
 
-Don't want to run this manually?
+Don't want to run this yourself?
 
-Artemis, the AI GTM Engineer, runs a GTM audit in one session inside your own Claude Code, claude.ai or Codex:
+Artemis GTM, an AI GTM engineering firm, runs this audit on your own CRM and tools, prices each leak in your numbers, then builds, implements and deploys the systems that close them inside your stack with its proprietary agent architecture. Tom Regan leads every engagement.
 
-```
-/plugin marketplace add tomregan-revenueleaks/artemis-gtm-plugins
-/plugin install gtm-engineer@artemis-gtm
-```
-
-Free. No signup. Details: [artemisgtm.ai/engineer](https://artemisgtm.ai/engineer/)
+[Book an evaluation](https://artemisgtm.ai/#book), or price your leaks first with the free guide: [the seven revenue leaks](https://artemisgtm.ai/resources/the-7-revenue-leaks/).
 
 ---
 
